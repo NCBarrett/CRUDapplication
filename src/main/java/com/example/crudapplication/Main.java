@@ -7,7 +7,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-    public class CRUDapplication extends Application {
+    public class Main extends Application {
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setScene(new Scene(new CustomerController().getView()));

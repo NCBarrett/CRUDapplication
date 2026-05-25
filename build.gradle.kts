@@ -4,6 +4,7 @@ plugins {
     id("org.javamodularity.moduleplugin") version "1.8.15"
     id("org.openjfx.javafxplugin") version "0.0.13"
     id("org.beryx.jlink") version "2.25.0"
+
 }
 
 group = "com.example"
@@ -17,7 +18,7 @@ val junitVersion = "5.12.1"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(8)
+        languageVersion = JavaLanguageVersion.of(21) // 8, 16, 17
     }
 }
 

@@ -2,13 +2,21 @@ package com.example.crudapplication;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.layout.Region;
+import javafx.util.Builder;
 
-public class HelloController {
-    @FXML
-    private Label welcomeText;
+public class CustomerController {
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private Builder<Region> viewBuilder;
+    private CustomerInteractor interactor;
+
+    public CustomerController() {
+        CustomerModel model = new CustomerModel();
+        viewBuilder = new CustomerViewBuilder(model);
+        interactor = new CustomerInteractor(model);
+    }
+
+    public Region getView() {
+        return viewBuilder.build();
     }
 }
