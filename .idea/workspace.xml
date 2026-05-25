@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e1d618-af49-4e3d-93dc-5f00a783b2a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerInteractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerInteractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerViewBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/CustomerViewBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/crudapplication/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
