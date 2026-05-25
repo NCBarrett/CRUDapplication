@@ -52,7 +52,7 @@ public class CustomerViewBuilder implements Builder<Region> {
     }
 
     private Node nameBox() {
-        return new HBox(6, promptLabel("Account #:"), boundTextField(model.accountNumberProperty()));
+        return new HBox(6, promptLabel("Name:"), boundTextField(model.accountNumberProperty()));
     }
 
     private Node boundTextField(StringProperty boundProperty) {

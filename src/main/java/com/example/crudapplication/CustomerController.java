@@ -12,8 +12,8 @@ public class CustomerController {
 
     public CustomerController() {
         CustomerModel model = new CustomerModel();
-        viewBuilder = new CustomerViewBuilder(model);
         interactor = new CustomerInteractor(model);
+        viewBuilder = new CustomerViewBuilder(model, interactor::saveCustomer);
     }
 
     public Region getView() {
