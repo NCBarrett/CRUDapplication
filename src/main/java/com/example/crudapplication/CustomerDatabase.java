@@ -14,7 +14,7 @@ public class CustomerDatabase {
         return nextKey;
     }
 
-    Map<Integer, Map<String,String>> getData() {
+    public Map<Integer, Map<String,String>> getData() {
         return data;
     }
 }
