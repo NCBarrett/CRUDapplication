@@ -12,7 +12,7 @@ public class CustomerInteractor {
         System.out.println("Savings account: " + model.getAccountNumber() + " Name: " + model.getCustomerName());
     }
 
-    Customer createCustomerFromModel() {
+    public Customer createCustomerFromModel() {
         Customer customer = new Customer();
         customer.setAccountNumber(model.getAccountNumber());
         customer.setName(model.getCustomerName());
