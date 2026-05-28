@@ -4,7 +4,7 @@ public class CustomerBroker {
 
     private final CustomerDAO dao = new CustomerDAO();
 
-    public int saveCustomer(Customer customer) {
+    int saveCustomer(Customer customer) {
         return dao.saveCustomer(createCustomerDTO(customer));
     }
 

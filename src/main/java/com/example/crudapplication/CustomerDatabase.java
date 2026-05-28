@@ -9,6 +9,12 @@ public class CustomerDatabase {
     private Integer nextKey = 0;
 
     public int saveCustomer(Map<String, String> customerRecord) {
+
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e){
+            throw new RuntimeException(e);
+        }
         customerRecord.put("_id", (++nextKey).toString());
         data.put(nextKey, customerRecord);
         return nextKey;
